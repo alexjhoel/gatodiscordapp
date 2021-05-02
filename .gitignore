@@ -1,5 +1,4 @@
 # Logs
-token.env
 exclude
 logs
 *.log
