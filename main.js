@@ -21,7 +21,7 @@ for(const file of commandFiles){
 console.log(commandsNames);
 var num = 0;
 client.once('ready',() => {
-    console.log('My bot is online!');
+    console.log('My bot is online!!!');
 })
 
 client.on('message', msg => {
