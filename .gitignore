@@ -1,5 +1,5 @@
 # Logs
-*.env
+token.env
 exclude
 logs
 *.log
