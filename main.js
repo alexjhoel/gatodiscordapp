@@ -1,8 +1,9 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
+require('dotenv').config();
 
-const prefix = '!';
+const prefix = process.env.PREFIX;
 const fs = require('fs');
 
 client.commands = new Discord.Collection();
